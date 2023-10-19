@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'reset';
+
+
+@each $name, $size in $sizes {
+  .font-#{$name} {
+    font-size: $size;
+  }
+}
+
+
+
+
+
+h1{
+  color: $maincolor;
+  border: $border_size solid $maincolor;
+  &:hover{
+      color: black;
+  }
+}
